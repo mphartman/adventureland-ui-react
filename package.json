@@ -2,14 +2,16 @@
   "name": "adventureland-ui",
   "version": "1.0.0",
   "private": true,
+  "devDependencies": {
+    "react-scripts": "^2.1.1"
+  },
   "dependencies": {
     "@material-ui/core": "^3.6.1",
     "auth0-js": "^9.8.2",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-router": "^4.3.1",
-    "react-router-dom": "^4.3.1",
-    "react-scripts": "2.1.1"
+    "react-router-dom": "^4.3.1"
   },
   "scripts": {
     "start": "react-scripts start",
