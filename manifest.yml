@@ -1,0 +1,11 @@
+---
+applications:
+- name: adventureland-ui
+  buildpacks: 
+  - staticfile_buildpack
+  env:
+    FORCE_HTTPS: true
+  path: build/
+  memory: 64MB
+  routes:
+  - route: https://adventureland.cfapps.io
