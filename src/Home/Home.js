@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Button from '@material-ui/core/Button'
 
 class Home extends Component {
   login() {
@@ -19,12 +20,13 @@ class Home extends Component {
           !isAuthenticated() && (
               <h4>
                 You are not logged in! Please{' '}
-                <a
-                  style={{ cursor: 'pointer' }}
+                <Button 
+                  variant = "outlined"
+                  href = "#login"
                   onClick={this.login.bind(this)}
-                >
-                  Log In
-                </a>
+                > 
+                  Login
+                </Button>
                 {' '}to continue.
               </h4>
             )
